@@ -937,9 +937,12 @@ local function SetZoomHook() timerFrame.force = true end
 
 function Routes:MINIMAP_UPDATE_ZOOM()
 	local zoom = Minimap:GetZoom()
-	if GetCVar("minimapZoom") == GetCVar("minimapInsideZoom") then Minimap:SetZoom(zoom < 2 and zoom + 1 or zoom - 1) end
+	-- Use pcall to avoid errors when Minimap is reparented by addons like FarmHud
+	if GetCVar("minimapZoom") == GetCVar("minimapInsideZoom") then
+		pcall(function() Minimap:SetZoom(zoom < 2 and zoom + 1 or zoom - 1) end)
+	end
 	indoors = GetCVar("minimapZoom") + 0 == Minimap:GetZoom() and "outdoor" or "indoor"
-	Minimap:SetZoom(zoom)
+	pcall(function() Minimap:SetZoom(zoom) end)
 end
 
 function Routes:CVAR_UPDATE(event, cvar, value) if cvar == "ROTATE_MINIMAP" then minimap_rotate = value == "1" end end

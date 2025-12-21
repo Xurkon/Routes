@@ -4,7 +4,7 @@
 ## Notes-frFR: Routes sur votre carte du monde et minicarte !
 ## Notes-zhCN:Routes可以在已有采集相关数据的基础上形成采集路线，并可以优化路线，提高采集效率。
 ## Author: Grum, Xinhuan, Xan, BanditTech
-## Version: v1.3.2
+## Version: v1.3.3
 ## DefaultState: enabled
 ## X-Category: Map
 ## OptionalDeps: Ace3, Cartographer, Cartographer_Notes, GatherMate, GatherMate2, Gatherer, HandyNotes
