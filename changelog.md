@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.3.3
+**2026-05-03**
+
+### Bug Fixes
+- **[Fix — FarmHud Compatibility]** Fixed `SetZoom` error when FarmHud is active. The minimap zoom level is now properly validated before calling `SetZoom`, preventing taint and script errors on servers with FarmHud integration.
+
+### Documentation
+- Added latest release download badge to README
+- Updated PayPal donation link to PayPal.me format
+- Unified download badge format across all project READMEs
+
+### Housekeeping
+- Removed `Routes_backup_1.3.2.zip` from repository
+- Added `.gitignore` patterns for `*.zip`, `*.bak`, `*.orig`, `*~`
+- Added `.gitattributes` with export-ignore for `docs/` and `*.md`
+
 ## v1.3.2
 **2025-10-31**
 
