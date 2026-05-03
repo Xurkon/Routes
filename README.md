@@ -6,7 +6,7 @@
 ![Total Downloads](https://img.shields.io/github/downloads/Xurkon/Routes/total?style=for-the-badge&label=TOTAL%20DOWNLOADS&color=e67e22)
 ![Latest Release](https://img.shields.io/github/downloads/Xurkon/Routes/latest/total?style=for-the-badge&label=LATEST%20RELEASE&color=3498db)
 [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?style=for-the-badge&logo=patreon)](https://patreon.com/Xurkon)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=kancerous@gmail.com)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?style=for-the-badge&logo=paypal)](https://www.paypal.me/Xurkon)
 
 > **Optimized for Project Ascension** - Draw routes on your minimap and world map for efficient farming!
 
