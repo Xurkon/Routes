@@ -87,6 +87,12 @@ Works seamlessly with these gathering addons:
 * **Xan** - Minimap view radius implementation
 * **BanditTech** - Ascension client compatibility
 
+
+
+## Requirements
+
+> **This addon requires Xurkon's modified version of [GatherMate2](https://github.com/Xurkon/GatherMate2)** for node data. The standard GatherMate2 releases do not include the necessary data exports for Routes to function.
+
 ## Disclaimer
 
 > World of Warcraft© and Blizzard Entertainment© are all trademarks or registered trademarks of Blizzard Entertainment in the United States and/or other countries. These terms and all related materials, logos, and images are copyright © Blizzard Entertainment.
